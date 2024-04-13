@@ -50,6 +50,12 @@ const linksList = [
     icon: 'school',
     to: '/breakpoints',
   },
+  {
+    title: 'Classes & Variables',
+    caption: 'quasar.dev',
+    icon: 'school',
+    to: '/classes-variables',
+  },
 ];
 </script>
 
