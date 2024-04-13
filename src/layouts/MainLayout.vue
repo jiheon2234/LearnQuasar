@@ -44,6 +44,12 @@ const linksList = [
     icon: 'school',
     to: '/spacing',
   },
+  {
+    title: 'BreakPoints',
+    caption: 'quasar.dev',
+    icon: 'school',
+    to: '/breakpoints',
+  },
 ];
 </script>
 
