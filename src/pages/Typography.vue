@@ -6,7 +6,7 @@
       <p class="text-h1">Headline 1</p>
       <p class="text-h2">Headline 2</p>
       <p class="text-h3">Headline 4</p>
-      <p class="text-h4">Headline 3</p>
+      <p class="text-h4">Headline 3</p> 
       <p class="text-h5">Headline 5</p>
       <p class="text-h6">Headline 6</p>
       <p class="text-subtitle1">Subtitle 1</p>
