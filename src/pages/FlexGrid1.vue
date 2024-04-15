@@ -15,7 +15,7 @@
       </div>
       <q-separator spaced />
       <div class="bg-yellow">
-        <div class="row q-col-gutter-md">
+        <div class="row q-col-gutter-md"> 
           <div v-for="n in 8" :key="n" class="col-12 col-sm-6 col-md-4 col-lg-3">
             <q-card class="my-card">
               <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
