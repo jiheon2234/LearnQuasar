@@ -5,7 +5,8 @@
         <q-btn flat dense round @click="toggleLeftDrawer" aria-label="Menu" icon="menu" />
 
         <q-toolbar-title> Quasar App </q-toolbar-title>
-        <q-btn stretch flat label="Sub Layout" to="/sub" />
+
+        <q-btn stretch flat label="Main Layout" to="/" />
       </q-toolbar>
     </q-header>
 
@@ -32,13 +33,13 @@
 
 <script setup>
 import { ref } from 'vue';
+
 const items = ref([
-  { title: 'sub Page 1', to: '/sub/sub-page-1' },
-  { title: 'sub Page 2', to: '/sub/sub-page-2' },
+  { title: 'Sub Page 1', to: '/sub/sub-page-1' },
+  { title: 'Sub Page 2', to: '/sub/sub-page-2' },
 ]);
 
 const leftDrawerOpen = ref(false);
-
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
 }
