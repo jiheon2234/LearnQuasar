@@ -51,6 +51,11 @@ const routes = [
       { path: 'sub-page-2', component: () => import('pages/sub/SubPage2.vue') },
     ],
   },
+  {
+    path: '/youtube',
+    component: () => import('layouts/youtube/Index.vue'),
+    children: [{ path: '', component: () => import('pages/youtube/IndexPage.vue') }],
+  },
 
   // Always leave this as last one,
   // but you can also remove it
