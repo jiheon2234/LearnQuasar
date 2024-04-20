@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> {{ $t('productName') }} </q-toolbar-title>
 
         <q-btn stretch flat label="Sub Layout" to="/sub" />
         <q-btn flat round dense :icon="darkModeIcon" @click="toggleDarkMode" />
