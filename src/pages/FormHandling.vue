@@ -70,6 +70,9 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useQuasar } from 'quasar';
+
+const $q = useQuasar();
 
 const form = ref({
   title: '',
@@ -105,9 +108,14 @@ const reset = () => {
 const onSubmit = () => {
   if (form.value.accept !== true) {
     alert('동의해주세요');
-  } else {
-    alert('제출되었습니다');
+    return;
   }
+  $q.loading.show();
+  setTimeout(() => {
+    $q.loading.hide();
+    alert('제출되었습니다');
+  }, 2000);
+  // alert('제출되었습니다');
 };
 
 const onReset = () => {
@@ -117,6 +125,8 @@ const onReset = () => {
   form.value.date = '2023/01/01';
   form.value.accept = false;
 };
+
+
 </script>
 
 <style lang="scss" scoped></style>

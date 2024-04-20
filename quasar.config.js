@@ -18,7 +18,7 @@ module.exports = configure(function (/* ctx */) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
-    boot: ['initialization', 'constants'],
+    boot: ['initialization', 'constants', 'loading-plugin', 'loading-bar-plugin'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
     css: ['app.scss'],
@@ -102,7 +102,14 @@ module.exports = configure(function (/* ctx */) {
       // directives: [],
 
       // Quasar plugins
-      plugins: ['LocalStorage'],
+      plugins: ['LocalStorage', 'Loading', 'LoadingBar'],
+      config: {
+        // loading: {
+        //   delay: 400,
+        //   message: '제출중입니다',
+        //   spinnerSize: 100,
+        // },
+      },
     },
 
     // animations: 'all', // --- includes all animations
