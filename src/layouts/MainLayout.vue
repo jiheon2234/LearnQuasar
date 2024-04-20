@@ -98,6 +98,12 @@ const linksList = [
     icon: 'school',
     to: '/quasar-utils',
   },
+  {
+    title: 'Quasar LanguagePacks',
+    caption: 'quasar.dev',
+    icon: 'school',
+    to: '/quasar-language-pack',
+  },
   // {
   //   title: 'Flex grid 2',
   //   caption: 'quasar.dev',
