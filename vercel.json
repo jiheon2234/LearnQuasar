@@ -1,0 +1,12 @@
+{
+  "outputDirectory": "dist/spa",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
