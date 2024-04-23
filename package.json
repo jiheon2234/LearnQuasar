@@ -1,8 +1,8 @@
 {
   "name": "learn-quasar",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "description": "Learn Quasar Framework",
+  "productName": "My Quasar App",
   "author": "jiheon2234 <jiheon2234@gmail.com>",
   "private": true,
   "scripts": {

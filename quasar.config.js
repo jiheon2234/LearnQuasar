@@ -110,7 +110,7 @@ module.exports = configure(function (/* ctx */) {
       // directives: [],
 
       // Quasar plugins
-      plugins: ['LocalStorage', 'Loading', 'LoadingBar'],
+      plugins: ['LocalStorage', 'Loading', 'LoadingBar', 'Meta'],
       config: {
         // loading: {
         //   delay: 400,
